@@ -37,7 +37,7 @@
   
   .container {
     width: 600px;
-    height: 600px;
+    height: 800px;
     padding: 30px;
   
     background-color: #f2eecb;
@@ -69,10 +69,52 @@
     font-size: 0.8rem;
     font-family: 'Bungee', cursive;
 
-    padding: 24px;
+    cursor:pointer;
+    padding: 16px;
+
     background: unset;
     border: unset;
     outline: unset;
   }
+
+  .add {
+    padding: 16px;
+
+  }
+
+  .add-form {
+    display: flex;
+    align-items: flex-start;
+    
+  }
+
+  .add-input {
+    background-color: unset;
+    border: unset;
+    padding: 0 64px;
+
+    flex: 1;
+
+    border-bottom: 1px solid var(--main-red-color);
+
+    outline: unset;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 16px;
+    text-transform: lowercase;
+  }
+
+  .add-btn {
+    font-size: 0.8rem;
+    font-family: 'Bungee', cursive;
+
+    padding: 16px;
+    padding-right: unset;
+    cursor: pointer;
+
+    background-color: unset;
+    border: unset;
+    outline: unset;
+  }
+
 
   
